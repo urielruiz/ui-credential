@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Credential</string>
+    <string name="text_name">Name</string>
+    <string name="text_firstName">Uriel Antonio</string>
+    <string name="text_lastName">Ruiz</string>
+    <string name="text_lastName2">Alvarado</string>
+    <string name="text_age">Age</string>
+    <string name="text_ageNumber">31</string>
+    <string name="text_birthday">Day of birth</string>
+    <string name="text_height">Height</string>
+    <string name="text_heightMeasure">5\'10</string>
+</resources>
