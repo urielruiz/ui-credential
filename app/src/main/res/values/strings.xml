@@ -7,6 +7,7 @@
     <string name="text_age">Age</string>
     <string name="text_ageNumber">31</string>
     <string name="text_birthday">Day of birth</string>
+    <string name="text_dayBirth">September 20 of 1989</string>
     <string name="text_height">Height</string>
     <string name="text_heightMeasure">5\'10</string>
 </resources>

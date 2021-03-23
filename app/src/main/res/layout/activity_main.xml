@@ -20,7 +20,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/descarga"
-            tools:srcCompat="@tools:sample/avatars" />
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription=""
+            />
 
         <TextView
             android:id="@+id/textView"
@@ -72,6 +74,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_heightMeasure" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_birthday"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_dayBirth" />
 
     </LinearLayout>
 
