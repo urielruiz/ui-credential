@@ -10,4 +10,5 @@
     <string name="text_dayBirth">September 20 of 1989</string>
     <string name="text_height">Height</string>
     <string name="text_heightMeasure">5\'10</string>
+    <string name="button_send">Send</string>
 </resources>
