@@ -106,6 +106,20 @@
             android:layout_height="wrap_content"
             android:text="@string/text_dayBirth" />
 
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessage"
+            android:text="@string/button_send" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="shareInfo"
+            android:text="@string/button_share" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

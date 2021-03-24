@@ -11,4 +11,5 @@
     <string name="text_height">Height</string>
     <string name="text_heightMeasure">5\'10</string>
     <string name="button_send">Send</string>
+    <string name="button_share">Share</string>
 </resources>

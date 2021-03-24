@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.util.Log
 import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
 
 const val EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE"
@@ -29,6 +30,22 @@ class MainActivity : AppCompatActivity() {
             putExtra(com.example.uicredential.EXTRA_MESSAGE, message)
         }
         startActivity(intent)
+    }
+
+    fun shareInfo(view: View){
+        val imageProfile = findViewById<ImageView>(R.id.imageView)
+
+        val sendIntent = Intent().apply {
+            action = Intent.ACTION_SEND
+            putExtra(Intent.EXTRA_TEXT, tag)
+            type = "text/plain"
+        }
+
+// Verify that the intent will resolve to an activity
+        if (sendIntent.resolveActivity(packageManager) != null) {
+            startActivity(sendIntent)
+        }
+
     }
 
 

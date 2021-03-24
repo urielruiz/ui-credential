@@ -13,4 +13,5 @@
 <string name="text_height">Estatura</string>
 <string name="text_heightMeasure">178 cm</string>
     <string name="button_send">Enviar</string>
+    <string name="button_share">Compartir</string>
 </resources>
